@@ -1,0 +1,62 @@
+*{
+     list-style: none;
+     margin: 0;
+}
+body{
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: beige;
+}
+.blocoPrincipal{
+     background: rgb(110,125,207);
+     background: linear-gradient(353deg, rgba(110,125,207,1) 9%, rgba(151,161,219,1) 20%, rgba(41,60,162,1) 31%, rgba(139,146,184,1) 42%, rgba(2,3,2,1) 57%, rgba(20,32,93,1) 100%);
+     width: 500px;
+     padding: 10px;
+     margin: 0 20px;
+}
+h1{
+     border-bottom: solid 1px rgb(212, 212, 212);
+     color: white;
+}
+form{
+     justify-content: center;
+     gap: 10px;
+     margin: 20px 0 0 0;
+     display: flex;
+}
+form input[type="text"]{
+     padding: 10px 30px;
+}
+form input[type="submit"]{
+     padding: 10px 30px;
+}
+.content{
+     padding: 10px;
+     width: 90%;
+     margin: 5px 0 ;
+}
+
+li{  
+     margin: 10px 0;
+     background-color: rgb(210, 216, 206);
+     border-radius: 10px;
+     width: 100%;
+     justify-content: space-between;
+     display: flex;
+}
+.btn-conclui{
+     background-color: blue;
+     color: white;
+     text-decoration: none;
+}
+.btn-deleta{
+     background-color: rgb(228, 35, 28);
+     color: white;
+     text-decoration: none;
+}
+.done{
+     text-decoration: line-through;
+}
